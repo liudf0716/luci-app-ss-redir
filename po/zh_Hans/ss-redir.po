@@ -34,3 +34,18 @@ msgstr "Shadowsocks服务器的加密方式"
 
 msgid "Enable ss-redir service"
 msgstr "启用SS转发服务"
+
+msgid "Server Command"
+msgstr "服务器端命令"
+
+msgid "Copy the command to run ss-server on the server side"
+msgstr "复制在服务器端运行ss-server的命令"
+
+msgid "Copy Command"
+msgstr "复制命令"
+
+msgid "Compy the command to clipboard"
+msgstr "复制服务器端命令到剪贴板"
+
+msgid "Copied to clipboard"
+msgstr "已复制到剪贴板"
