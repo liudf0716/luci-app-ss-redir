@@ -133,7 +133,7 @@ return view.extend({
 
         // add a textarea to show the config file content
 		o = s.taboption('server', form.DummyValue, "_config", _("Server Command"), 
-			_("Copy the command to run ss-server on the server side."));
+			_("Copy the command to run ss-server on the server side"));
 		o.rawhtml = true;
 		o.cfgvalue = function(section_id) {
 			var server = uci.get('ss-redir', section_id, 'server');
