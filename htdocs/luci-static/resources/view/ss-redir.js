@@ -5,6 +5,7 @@
 'require rpc';
 'require uci';
 'require tools.widgets as widgets';
+'require tools.github as github';
 
 var methods = [
 	// aead
@@ -70,7 +71,7 @@ return view.extend({
 		var m, s, o;
 
 		m = new form.Map('ss-redir', _('ss-redir'));
-		m.description = _("ss-redir redirect tcp service to kcptun client process.");
+		m.description = github.luci_desc('ss-redir redirect tcp service to kcptun client process.', 'liudf0716', 'ss-redir');
 
 		// add kcptun-client status section and option 
 		s = m.section(form.NamedSection, '_status');
